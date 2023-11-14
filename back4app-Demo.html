@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Demo App BITS Using back4app</title>
+<title>Sriram Assignment</title>
 <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
 
 <script type="text/javascript" type="text/javascript">
@@ -11,27 +11,28 @@ Parse.serverURL = 'https://parseapi.back4app.com/'
 <script type="text/javascript" src="CRUD.js"></script>
 
 </head>
-<body>
+<body align="center" style="background-color:powderblue;">
 <h1>Task Details</h1>
 
-<label for="title">Title:</label>
+<label for="title">Title:</label><br>
 <input type="text" id="title" name="title"><br><br>
-<label for="description">Description:</label>
+<label for="description">Description:</label><br>
 <input type="text" id="description" name="description"><br><br>
 <button onclick="postData()">Create</button><br><br> 
-
+<hr>
 <button onclick="getData()">Get</button><br><br>
+<hr>
 
-
-<label for="u_objectId">objectId:</label>
+<label for="u_objectId">objectId:</label><br>
 <input type="text" id="u_objectId" name="objectId"><br><br>
-<label for="u_title">New_title:</label>
+<label for="u_title">New_title:</label><br>
 <input type="text" id="u_title" name="title"><br><br>
-<label for="u_description">New_description:</label>
+<label for="u_description">New_description:</label><br>
 <input type="text" id="u_description" name="description"><br><br>
 <button onclick="updateData()">Update</button><br><br>
+<hr>
 
-<label for="d_objectId">objectId:</label>
+<label for="d_objectId">objectId:</label><br>
 <input type="text" id="d_objectId" name="objectId"><br><br>
 <button onclick="deleteData()">Delete</button><br><br>
 </body>
